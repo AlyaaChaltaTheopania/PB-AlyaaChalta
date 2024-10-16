@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DD8C92C-6242-977E-E3D2-1D26D960F05C" name="FAKTUR">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:14:56 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No" id="BCE2BD8A-A393-3687-B548-DF95D94FD70F">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:15:04 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal" id="17A49278-DB47-64A9-437A-3269DCB8A64C">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:15:17 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termin" id="74B01A3E-8072-46B7-3BF2-597ED55EFA69">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:15:24 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalPenjualan" id="69855D79-7C3D-3B79-E2B0-3F35AF77C04A">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:15:31 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PPN" id="7C8E11FC-80BE-2E75-D972-6C08E4143F41">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:15:40 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PiutangDagang" id="6B487F5C-9CAA-D5B1-F927-801ADD740DDB">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:15:46 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="81C295BC-602F-CEEF-F8A8-4423C0F7B640">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 03:41:58 UTC</createdTime>
+<generatorID>E4D850C6-F0CE-B67C-F256-DBA16CA3C893</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<referedAttribute>18CF6EAD-D373-D073-6EE9-DFDB1032A698</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No." id="F2D7703F-40E7-EA14-63E3-287FAFD2C3BE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 03:42:22 UTC</createdTime>
+<generatorID>C7774554-56A3-3658-80D0-A2356AD50BFD</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<referedAttribute>4316D3A9-DA9D-8487-959D-A65B0D9331BD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7F88F80-F2B8-85CD-8765-7A3461D54910" name="FAKTUR PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:15:15 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCE2BD8A-A393-3687-B548-DF95D94FD70F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

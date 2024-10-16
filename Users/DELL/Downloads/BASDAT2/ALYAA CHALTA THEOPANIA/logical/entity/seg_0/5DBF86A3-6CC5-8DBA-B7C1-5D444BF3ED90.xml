@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DBF86A3-6CC5-8DBA-B7C1-5D444BF3ED90" name="P.O.">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:08:02 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No." id="4316D3A9-DA9D-8487-959D-A65B0D9331BD">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:08:29 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal" id="28651E84-F79D-C7C8-ACA5-82CF05348A17">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:08:46 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="F42ACA27-C846-FA5C-0D80-F330BFB37150">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 03:40:25 UTC</createdTime>
+<generatorID>49B7933E-99D0-47CA-398E-3CFF4D709961</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<referedAttribute>18CF6EAD-D373-D073-6EE9-DFDB1032A698</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1514C49-2865-26DF-515E-BA0ABAA8E883" name="P.O. PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 01:08:41 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4316D3A9-DA9D-8487-959D-A65B0D9331BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
