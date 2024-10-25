@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="7CD35ED7-B4D7-CD65-FA1E-8144303FF986">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 14:02:03 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="6E10514E-0C1D-45C5-FEE5-37A631320ADD" value="true"/>
+</engineerTo>
+<sourcePk>7C7AB210-3159-F711-107C-6FDF53017D72</sourcePk>
+<targetPk>17479B3E-90F1-82DC-34AC-2DA47F306C2F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2B56165F-F622-E006-DB93-319DE7F49098</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7C479338-E88A-5648-8EAB-F07B2A6B9254</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

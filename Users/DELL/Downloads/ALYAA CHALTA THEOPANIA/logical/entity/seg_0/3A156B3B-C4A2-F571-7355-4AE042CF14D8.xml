@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A156B3B-C4A2-F571-7355-4AE042CF14D8" name="BRG_PO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 13:24:31 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="6E10514E-0C1D-45C5-FEE5-37A631320ADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Jumlah" id="0125A402-1ACF-390B-AD09-15883E6E8D76">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 13:27:10 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="6E10514E-0C1D-45C5-FEE5-37A631320ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalHarga" id="82995466-3347-2D84-9BD7-625027E726EC">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 13:28:02 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="6E10514E-0C1D-45C5-FEE5-37A631320ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No" id="17D17F20-4CA3-EB35-41F8-4469F7C8ADB2">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 14:04:12 UTC</createdTime>
+<generatorID>8FF64EC5-2BE8-4489-C7E8-F5F4323A24E7</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="6E10514E-0C1D-45C5-FEE5-37A631320ADD" value="true"/>
+</engineerTo>
+<referedAttribute>0ABBC863-776C-DBFC-F91B-4207CBA1EBF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="7E469A23-C1A2-907F-B24D-93C01CF1448F">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 14:08:08 UTC</createdTime>
+<generatorID>9784830E-E65D-4374-6BC5-FDCF12F7E3E1</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="6E10514E-0C1D-45C5-FEE5-37A631320ADD" value="true"/>
+</engineerTo>
+<referedAttribute>52C08A2F-3658-FD77-28C1-4A6479628977</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9D35400-BC73-36D7-AF33-CD1245D15C05" name="BRG_PO PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 14:07:02 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="6E10514E-0C1D-45C5-FEE5-37A631320ADD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E469A23-C1A2-907F-B24D-93C01CF1448F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
