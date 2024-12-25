@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2E2AA60-AB15-BA3F-9D88-5FCE62E715B5" containerWithKeyObject="3556A2E1-83FF-010A-B09F-856711FC061B" localFKIndex="1A1F1FBB-0373-0E7B-3BE3-8220B562748F" name="KRS_MATAKULIAH_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>9AA59685-90A6-D025-CD31-1D42E0439EA7</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<referredTableLongName>MATAKULIAH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>35FE8A94-331C-FC97-EAB7-72EB1A2C9767</referredTableID>
+<keyObject>CB496F27-AE03-9210-2676-19FB5F594E7C</keyObject>
+<referredKeyID>CB496F27-AE03-9210-2676-19FB5F594E7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KodeMK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

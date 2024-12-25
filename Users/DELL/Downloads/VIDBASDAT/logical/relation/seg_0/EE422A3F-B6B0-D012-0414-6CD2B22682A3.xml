@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="EE422A3F-B6B0-D012-0414-6CD2B22682A3">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:49:49 UTC</createdTime>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<engineerTo>
+<item key="FF43CCCD-3F50-5EC6-980C-A4C2E72DB9D3" value="true"/>
+</engineerTo>
+<sourcePk>76715FFD-5B8A-7404-778E-D0645F1C896E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F04BBAA1-BD65-CA9B-8649-BEE4B58F0216</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7BD329D6-C660-00B0-43D1-0B4B0D37ABCB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

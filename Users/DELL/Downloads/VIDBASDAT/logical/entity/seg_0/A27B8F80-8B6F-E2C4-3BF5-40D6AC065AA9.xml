@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A27B8F80-8B6F-E2C4-3BF5-40D6AC065AA9" name="MAHASISWA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:38:44 UTC</createdTime>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<engineerTo>
+<item key="FF43CCCD-3F50-5EC6-980C-A4C2E72DB9D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIM" id="DCE9FCA3-2282-F9B8-9A8C-86E119450F2D">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:38:54 UTC</createdTime>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<engineerTo>
+<item key="FF43CCCD-3F50-5EC6-980C-A4C2E72DB9D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="3F6263B4-F303-CBDB-9AB5-C856A790774A">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:39:13 UTC</createdTime>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<engineerTo>
+<item key="FF43CCCD-3F50-5EC6-980C-A4C2E72DB9D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kelas" id="00655203-8E3E-E65D-8D97-CDBC4B870D0B">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:39:30 UTC</createdTime>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<engineerTo>
+<item key="FF43CCCD-3F50-5EC6-980C-A4C2E72DB9D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KodePDI" id="3AA37E9F-F9FD-6221-3538-1DE2C0FF4CBE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:50:15 UTC</createdTime>
+<generatorID>F7A163EC-544A-AA3F-5C1C-F61F683C4811</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<engineerTo>
+<item key="FF43CCCD-3F50-5EC6-980C-A4C2E72DB9D3" value="true"/>
+</engineerTo>
+<referedAttribute>CE3A33F2-EEED-7AB8-DFF9-08427CFCF4E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A7B5CCB-3FC1-061B-9987-57357E1755FB" name="MAHASISWA PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:39:10 UTC</createdTime>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<engineerTo>
+<item key="FF43CCCD-3F50-5EC6-980C-A4C2E72DB9D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCE9FCA3-2282-F9B8-9A8C-86E119450F2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

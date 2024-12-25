@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35FE8A94-331C-FC97-EAB7-72EB1A2C9767" name="MATAKULIAH">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>03EE48B8-7D71-17D9-08ED-291D3D23F557</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KodeMK" id="8A5AC399-8523-E1B7-81A7-DFB1153D6583">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>84339B09-3A84-894B-BBF6-39A1534D5237</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="8CD7CC6A-ED69-B264-5BEA-5B36D97A9EDE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>5368EF73-22D6-2100-60BB-5A6111AA8523</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKS" id="969EE8F9-88E0-960A-C1E3-05DC2F3407A7">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>BF1FA441-CB4A-E655-67C9-2A6EBFA59E3D</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Program" id="FE0A8F66-9FF9-F545-E76F-9F66E7A1CEA5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>DBC93878-9F57-FFC3-955C-CD50CAD0E066</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB496F27-AE03-9210-2676-19FB5F594E7C" name="MATAKULIAH_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>5B47FF47-5B07-8553-C5C6-DAFF4497F318</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A5AC399-8523-E1B7-81A7-DFB1153D6583"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

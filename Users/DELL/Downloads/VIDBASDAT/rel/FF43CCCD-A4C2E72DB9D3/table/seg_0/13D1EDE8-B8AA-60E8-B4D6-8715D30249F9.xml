@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13D1EDE8-B8AA-60E8-B4D6-8715D30249F9" name="JADWAL">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>80B1A5C1-C093-C209-6B03-84281BEE0004</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TA" id="ACD3DFDC-C6AC-2DBD-FCDA-E75B75F76A86">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>5EB9A8B9-648B-7A75-695D-A6B952C88E54</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kelas" id="E74B6DEF-95D5-D635-B54C-CDFDFD4F4946">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>08DB66BB-C356-BB79-7643-FB8E7835445F</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hari" id="4F54C810-80F7-B15F-02FE-5B2AA9C20AFF">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>8B033E62-B8F5-5277-E575-4B824E09743C</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Waktu" id="F64FFD44-0CDA-175E-0AAD-9CFAB2C48486">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>C1F8B0F4-4C2B-54B1-C582-BB974FDC4549</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ruangan" id="F78E26E7-F07A-B966-E056-633467234394">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>A6B61B72-1C57-AE1B-6D43-7B53CD4336C1</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATAKULIAH_KodeMK" id="FFF8A3B2-C07C-F015-DD4D-127A59B048DC">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>CE1347C4-6857-1A30-FC9D-E0C0940ABD68</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B6F571D-9266-F6DE-5170-DFA096432E99" referredColumn="8A5AC399-8523-E1B7-81A7-DFB1153D6583"/>
+</associations>
+</Column>
+<Column name="DOSEN_NIP" id="D067D6AB-2D9E-8C58-AE6B-57A5BDC6885C">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>CFFB4427-F8A0-FF79-F47E-A7A437C95F0C</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1838B141-9620-DB73-888F-36657721E4AC" referredColumn="9B8B82B8-5AAB-10A3-81A7-15C02629C41B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51B1E8E1-1B76-A600-3F04-36063F90C371" name="JADWAL_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>9A629E81-11C9-D755-558F-2FED237731D9</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E74B6DEF-95D5-D635-B54C-CDFDFD4F4946"/>
+<colUsage columnID="FFF8A3B2-C07C-F015-DD4D-127A59B048DC"/>
+<colUsage columnID="D067D6AB-2D9E-8C58-AE6B-57A5BDC6885C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1526CB42-1374-E981-F152-90F6F72EB944" name="JADWAL_MATAKULIAH_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>4F762A52-38B9-678B-FAD9-57AD08BDE39F</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFF8A3B2-C07C-F015-DD4D-127A59B048DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2FD1D3D-AD5E-968B-7037-1BBF311BAE77" name="JADWAL_DOSEN_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>84D701E0-FB8D-563D-DBE6-18D5AC4234DC</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D067D6AB-2D9E-8C58-AE6B-57A5BDC6885C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

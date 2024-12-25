@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3EB0F7A5-4D6B-FDC8-EA5A-1DBCBC4CF4E6" containerWithKeyObject="802AA5BC-B6A4-C71D-9036-E6F0A86EDFD9" localFKIndex="475E7279-AFAC-7F4F-0CE4-C6B618703DB4" name="RIWAYATPA_MAHASISWA_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-12-25 13:51:57 UTC</createdTime>
+<generatorID>A4AC7471-298F-295F-78DE-955374A4B1A1</generatorID>
+<ownerDesignName>VIDBASDAT</ownerDesignName>
+<referredTableLongName>MAHASISWA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4E3C65E-CA23-CDD3-5491-2E550497DB54</referredTableID>
+<keyObject>B8653236-0581-F0C0-65C4-0BA16498FDC6</keyObject>
+<referredKeyID>B8653236-0581-F0C0-65C4-0BA16498FDC6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
