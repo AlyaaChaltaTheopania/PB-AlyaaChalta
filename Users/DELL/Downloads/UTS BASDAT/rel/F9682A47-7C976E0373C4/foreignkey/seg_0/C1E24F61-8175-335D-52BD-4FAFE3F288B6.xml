@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1E24F61-8175-335D-52BD-4FAFE3F288B6" containerWithKeyObject="0027A359-FA20-837B-CF94-C5106CBCD985" localFKIndex="971DC309-4971-A5D4-E32E-167C18F41B0E" name="SURAT_UNIVERSITAS_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>D3396144-E954-40DC-8C8D-B2AE113BE555</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<referredTableLongName>UNIVERSITAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8402740E-D685-B6A7-279B-4F854F2A7180</referredTableID>
+<keyObject>5413661D-C633-46E6-BB4B-D641AECF3E5C</keyObject>
+<referredKeyID>5413661D-C633-46E6-BB4B-D641AECF3E5C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDUniv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

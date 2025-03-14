@@ -15,15 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="93DBE02D-69C6-45CF-F590-0E94D8730E04">
+<Attribute name="ID BARANG" id="93DBE02D-69C6-45CF-F590-0E94D8730E04">
 <createdBy>DELL</createdBy>
 <createdTime>2024-10-16 01:13:13 UTC</createdTime>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nama" id="1B25926D-F8D4-4C3B-3BC5-D7D1BDAC5DD0">
 <createdBy>DELL</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Satuan" id="61DC30BE-3921-452A-74CA-281E34541944">
 <createdBy>DELL</createdBy>
@@ -42,8 +48,11 @@
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Harga" id="DE616445-8B4D-7CA1-862D-DC7E40343452">
 <createdBy>DELL</createdBy>
@@ -52,8 +61,11 @@
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -61,8 +73,9 @@
 <createdBy>DELL</createdBy>
 <createdTime>2024-10-16 01:13:19 UTC</createdTime>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

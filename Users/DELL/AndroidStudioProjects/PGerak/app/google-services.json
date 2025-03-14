@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845115441123",
+    "project_id": "signup-86a1d",
+    "storage_bucket": "signup-86a1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845115441123:android:a887ccfa83d5613c252ad6",
+        "android_client_info": {
+          "package_name": "com.example.pgerak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh7Wzf7R7cntoon_FLlKg_N-8VO2NhlnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

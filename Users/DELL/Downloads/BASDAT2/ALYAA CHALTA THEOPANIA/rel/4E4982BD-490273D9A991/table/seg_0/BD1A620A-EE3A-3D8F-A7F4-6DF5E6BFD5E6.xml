@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD1A620A-EE3A-3D8F-A7F4-6DF5E6BFD5E6" name="PGI_FAKTUR">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>76E5D150-DDAC-9CFE-E6FA-825A17B53BDC</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<ordsAlias>pegawai_faktur</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEGAWAI_ID_PEGAWAI" id="BED9AE0B-3319-5EC6-4AE6-653786002DAE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>6B0870FB-FFA8-6BD3-EA4A-9E59F83A533C</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4859E4B4-7459-B5BF-9471-E5A4338C16F9" referredColumn="243CBA77-A399-B21B-3497-AF9403D27A2D"/>
+</associations>
+</Column>
+<Column name="FAKTUR_No_FAKTUR" id="EC07482B-3BB5-436C-387F-C69FC9363EDA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>BC6105D5-9029-1418-3272-F76454FC9F7D</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70B1C6DD-3883-A4EA-FFB3-0F4DBB3A8D37" referredColumn="8F672FC8-7ECA-9208-D417-23340FBC6920"/>
+</associations>
+</Column>
+<Column name="ID_PEGAWAI" id="91ECD0E0-67B8-A009-CF81-59DEB6464130">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 04:28:15 UTC</createdTime>
+<generatorID>44D97DF4-D88F-9EFB-012A-898CA3C6BC65</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_FAKTUR" id="A6CDDB92-1DC5-8229-483E-36BC4C2A3826">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-23 03:45:21 UTC</createdTime>
+<generatorID>A7C3D165-93DD-D746-857C-D5B5DBC3587F</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83EBF235-E980-37C2-F571-814E3B4D4FCE" name="PGI_FAKTUR_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>88D0032B-DD14-63A2-00D1-723FD61D6E9D</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91ECD0E0-67B8-A009-CF81-59DEB6464130"/>
+<colUsage columnID="EC07482B-3BB5-436C-387F-C69FC9363EDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F3F9E03-D94D-20BD-9E87-5C69B2FABCFD" name="PGI_FAKTUR_PEGAWAI_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>25ED4181-CB7B-F661-F532-6F5B5B4E14A4</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BED9AE0B-3319-5EC6-4AE6-653786002DAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB75111A-C33E-02A8-71E4-8ABD8AFAE9C6" name="PGI_FAKTUR_FAKTUR_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>F1CBB5F6-78D7-77A1-D7FE-05D80393BB10</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC07482B-3BB5-436C-387F-C69FC9363EDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

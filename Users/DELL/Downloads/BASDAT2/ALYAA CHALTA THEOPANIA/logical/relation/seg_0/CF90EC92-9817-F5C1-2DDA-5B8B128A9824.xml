@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="CF90EC92-9817-F5C1-2DDA-5B8B128A9824">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DETAIL BARANG FAKTUR BARANG FK" directorySegmentName="seg_0" id="CF90EC92-9817-F5C1-2DDA-5B8B128A9824">
 <createdBy>DELL</createdBy>
 <createdTime>2024-10-16 03:34:53 UTC</createdTime>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
@@ -9,7 +9,7 @@
 <targetPk>0DBB90F3-F54D-9F2D-3200-5630B8A17E29</targetPk>
 <identifying>true</identifying>
 <optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>6B0C321F-8F0F-E9E4-8435-EFA85E1BA4F1</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

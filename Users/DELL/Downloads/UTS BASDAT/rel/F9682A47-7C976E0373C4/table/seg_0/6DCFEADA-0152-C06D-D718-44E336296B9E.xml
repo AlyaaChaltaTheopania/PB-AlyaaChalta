@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DCFEADA-0152-C06D-D718-44E336296B9E" name="PROPOSAL">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>A66CDFF4-6BB5-8BF1-5DA4-A2203CBCD71E</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kode" id="B2511FFC-3863-922A-A5FB-D6DAC15645EA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>41439D61-8BC8-E070-C6C0-8211B14B4607</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoProposal" id="015EAE3B-930D-CEEF-657E-B52AF3DE31C5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>3237CA4F-0AF5-D58D-6BA7-8CF7725EDF02</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Judul" id="1C29FA25-DE92-6DAF-C826-0F97C7DC0D25">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>C3B71E9A-D035-C1E3-8DCF-7B58521B5DE4</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bidang" id="9A194A97-A470-485E-A5B9-73FC650551DD">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>4C406DA5-FF85-0842-94E7-12E86D339BBF</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURAT_NoSurat" id="FECD13AE-777C-D336-DB07-CAE4E2C2D6B8">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>121FE069-DAEB-DAEB-E1F8-0AFA5B92EC37</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E341657-046E-2CD6-A1EE-566A6D5621DC" referredColumn="EAC6BF59-FE96-8A7A-A4EB-DC4911A42780"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEC99F9D-D3CA-00D9-3D09-0D07BF4E7D56" name="PROPOSAL_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>B1D97450-F5C0-CD6A-1F7B-62DA0E6198E5</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2511FFC-3863-922A-A5FB-D6DAC15645EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7249355D-374F-C8FA-93A0-3FCD20FD550B" name="PROPOSAL_SURAT_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>374E22AC-24DE-EA07-2931-C73497BEE9F5</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FECD13AE-777C-D336-DB07-CAE4E2C2D6B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C54C9B5D-9316-A175-B4BC-B46F8F6AF217" name="BRG_PO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>A38F0731-226A-627B-723A-B0C13B19B5F9</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<ordsAlias>detail_brg_po</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jumlah" id="938E3083-FF8A-77E9-FAA4-DB63E4C47A9B">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>51B4BD4B-B5C6-7300-38A4-52EE118FE436</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotalHarga" id="69CC9F97-1ECF-E6FF-4EB8-3493503F63F9">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>D537D491-1DA5-5921-7DD1-20499CCBD4EE</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BARANG_ID_BARANG" id="C12F1054-74ED-F855-FD7F-D65AD574B434">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>28B604EA-90F7-7E47-CCAE-D26C71B10FEF</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D5FA69-9721-7545-2F4A-2AED027D2752" referredColumn="09176384-08A3-A463-B4A8-C12321AF7936"/>
+</associations>
+</Column>
+<Column name="P.O._No" id="4AFA2006-37D3-B35B-CFD2-F6D20ECA1339">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>73908B3E-C8FF-B894-67EB-5A2A6B56DAEE</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PO_No_Po" id="809BD410-1630-D8C5-B254-73270D484471">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-23 03:45:21 UTC</createdTime>
+<generatorID>DA0A5A77-3ED0-5277-3854-A1F5865CB7AE</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0134F97-2EC9-D407-4AA6-5C219C843576" referredColumn="65A242D2-A50D-7783-9EEA-B569EAFCC60A"/>
+</associations>
+</Column>
+<Column name="ID_BARANG" id="FAE795CB-CE68-2965-F80E-3D874A70CA55">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-23 03:45:21 UTC</createdTime>
+<generatorID>8C048906-4E74-F40F-BD4C-663567D31ED4</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57250AD9-77FA-D16A-A95A-64159FA70B06" name="DETAIL_BRG_PO_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>EC5A5E97-DBFE-FDC5-19C8-1D4F7D4DE740</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C12F1054-74ED-F855-FD7F-D65AD574B434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="456D92F8-E3FD-30F7-B993-767513449739" name="BRG_PO__IDX">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-24 07:03:10 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0B1BC24B-A8DB-23ED-4987-20C411F3967C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4AFA2006-37D3-B35B-CFD2-F6D20ECA1339"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AA5A579-29DA-63CA-260A-D89F3704F0D1" name="BRG_PO_BARANG_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-21 03:32:14 UTC</createdTime>
+<generatorID>05E49CC9-BF9F-44A3-B274-F7135FAD03E2</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C12F1054-74ED-F855-FD7F-D65AD574B434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77C7270E-87AE-2108-820A-B5375CF48514" name="BRG_PO_PO_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-24 07:37:45 UTC</createdTime>
+<generatorID>0B1BC24B-A8DB-23ED-4987-20C411F3967C</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="809BD410-1630-D8C5-B254-73270D484471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

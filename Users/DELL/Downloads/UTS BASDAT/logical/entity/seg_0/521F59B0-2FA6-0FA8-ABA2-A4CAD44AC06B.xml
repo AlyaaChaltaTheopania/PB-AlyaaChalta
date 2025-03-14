@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="521F59B0-2FA6-0FA8-ABA2-A4CAD44AC06B" name="LEMBAGA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:35:46 UTC</createdTime>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<engineerTo>
+<item key="F9682A47-F788-8846-BF51-7C976E0373C4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDLembaga" id="F037D406-A5EF-BD2C-1ECE-F3F29BB2F7F9">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:36:23 UTC</createdTime>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<engineerTo>
+<item key="F9682A47-F788-8846-BF51-7C976E0373C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NamaLBA" id="D7BDE79A-5C27-40B5-CBC3-A29C3358808F">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:37:29 UTC</createdTime>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<engineerTo>
+<item key="F9682A47-F788-8846-BF51-7C976E0373C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDUniv" id="BBA56A52-A55B-1D4D-7AE8-D5EBFC2C05E4">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:46:16 UTC</createdTime>
+<generatorID>CE73B00F-2FB7-3CF1-423E-4CA00FB5199E</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<engineerTo>
+<item key="F9682A47-F788-8846-BF51-7C976E0373C4" value="true"/>
+</engineerTo>
+<referedAttribute>F3C2644E-6588-B3C1-D21A-8314E10D3803</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0936756-947B-8F88-0918-FCE5E2F106D5" name="Lembaga PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:37:26 UTC</createdTime>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<engineerTo>
+<item key="F9682A47-F788-8846-BF51-7C976E0373C4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F037D406-A5EF-BD2C-1ECE-F3F29BB2F7F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

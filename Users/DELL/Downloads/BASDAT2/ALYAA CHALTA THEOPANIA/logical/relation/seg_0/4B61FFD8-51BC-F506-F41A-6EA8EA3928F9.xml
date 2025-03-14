@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="4B61FFD8-51BC-F506-F41A-6EA8EA3928F9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DETAIL BARANG FAKTUR FAKTUR FK" directorySegmentName="seg_0" id="4B61FFD8-51BC-F506-F41A-6EA8EA3928F9">
 <createdBy>DELL</createdBy>
 <createdTime>2024-10-16 03:33:26 UTC</createdTime>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>

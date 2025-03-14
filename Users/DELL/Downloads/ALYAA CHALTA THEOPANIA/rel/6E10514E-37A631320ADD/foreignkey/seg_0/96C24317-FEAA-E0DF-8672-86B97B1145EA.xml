@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96C24317-FEAA-E0DF-8672-86B97B1145EA" containerWithKeyObject="2D71B101-8F5E-550B-3110-CB44725F456A" localFKIndex="905CCEFE-553E-D3F1-D43F-FE0433F87C7A" name="PGI_FAKTUR_FAKTUR_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 14:24:37 UTC</createdTime>
+<generatorID>08566AEA-1966-2DE4-1C76-7D44E5434623</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<referredTableLongName>FAKTUR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59EF4675-81DC-C687-9F6D-4EF98A11F318</referredTableID>
+<keyObject>87B33F70-F4F2-C9AC-271D-1AA817C18AB2</keyObject>
+<referredKeyID>87B33F70-F4F2-C9AC-271D-1AA817C18AB2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>No</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

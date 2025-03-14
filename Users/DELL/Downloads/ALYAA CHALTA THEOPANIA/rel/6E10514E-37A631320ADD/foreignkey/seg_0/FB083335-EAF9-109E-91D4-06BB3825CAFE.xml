@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB083335-EAF9-109E-91D4-06BB3825CAFE" containerWithKeyObject="59EF4675-81DC-C687-9F6D-4EF98A11F318" localFKIndex="DA3EB4E1-38BA-A007-FAD4-908BFDABE70A" name="FAKTUR_PELANGGAN_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-25 14:24:37 UTC</createdTime>
+<generatorID>8E4426C5-7463-28B8-2D71-C59BC468D5C9</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<referredTableLongName>PELANGGAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>593490B0-4287-5A71-DED3-1D99DEFB1BFE</referredTableID>
+<keyObject>0234E6D3-1A92-EAA5-51B6-160347BC565E</keyObject>
+<referredKeyID>0234E6D3-1A92-EAA5-51B6-160347BC565E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B0C321F-8F0F-E9E4-8435-EFA85E1BA4F1" name="DETAIL_BARANG_FAKTUR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B0C321F-8F0F-E9E4-8435-EFA85E1BA4F1" name="BRG_FAKTUR">
 <createdBy>DELL</createdBy>
 <createdTime>2024-10-16 01:14:07 UTC</createdTime>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TotalHarga" id="13FC6C43-7003-C3AF-A76D-9F1B39B4EC92">
 <createdBy>DELL</createdBy>
@@ -32,46 +35,88 @@
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="No" id="61B87E03-79A5-0C27-0934-B09B57837FE1">
+<Attribute name="No FAKTUR" id="2DD10F5F-8755-90E2-5F7E-442CA1617BBA">
 <createdBy>DELL</createdBy>
-<createdTime>2024-10-16 03:33:42 UTC</createdTime>
+<createdTime>2024-10-23 03:43:23 UTC</createdTime>
 <generatorID>4B61FFD8-51BC-F506-F41A-6EA8EA3928F9</generatorID>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
 <referedAttribute>BCE2BD8A-A393-3687-B548-DF95D94FD70F</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="C54763A1-DFED-184B-EE54-8C3A2899B3DD">
+<Attribute name="ID BARANG" id="1F3DA9CE-8E6C-E7D3-A424-1EB141250D87">
 <createdBy>DELL</createdBy>
-<createdTime>2024-10-16 03:36:02 UTC</createdTime>
+<createdTime>2024-10-23 03:44:27 UTC</createdTime>
 <generatorID>CF90EC92-9817-F5C1-2DDA-5B8B128A9824</generatorID>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
 <referedAttribute>93DBE02D-69C6-45CF-F590-0E94D8730E04</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="67AB4415-4102-AEBD-7162-FCCA0352650D" name="DETAIL_BARANG_FAKTUR PK">
+<Attribute name="FAKTUR No" id="A66F1E89-6B39-C075-3A21-2751C3207357">
 <createdBy>DELL</createdBy>
-<createdTime>2024-10-16 03:33:42 UTC</createdTime>
+<createdTime>2024-10-23 03:56:44 UTC</createdTime>
+<generatorID>4B61FFD8-51BC-F506-F41A-6EA8EA3928F9</generatorID>
 <ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
 <engineerTo>
 <item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
 </engineerTo>
+<referedAttribute>BCE2BD8A-A393-3687-B548-DF95D94FD70F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BARANG ID" id="1ADCA536-AF1A-E246-CEC4-A2A307B9C4C8">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-23 03:56:44 UTC</createdTime>
+<generatorID>CF90EC92-9817-F5C1-2DDA-5B8B128A9824</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="true"/>
+</engineerTo>
+<referedAttribute>93DBE02D-69C6-45CF-F590-0E94D8730E04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67AB4415-4102-AEBD-7162-FCCA0352650D" name="DETAIL_BARANG_FAKTUR_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-16 03:33:42 UTC</createdTime>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4E4982BD-0FA9-A9BA-30FC-490273D9A991" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>61B87E03-79A5-0C27-0934-B09B57837FE1</attributeRef>
-<attributeRef>C54763A1-DFED-184B-EE54-8C3A2899B3DD</attributeRef>
+<attributeRef>A66F1E89-6B39-C075-3A21-2751C3207357</attributeRef>
+<attributeRef>1ADCA536-AF1A-E246-CEC4-A2A307B9C4C8</attributeRef>
+<attributeRef>1F3DA9CE-8E6C-E7D3-A424-1EB141250D87</attributeRef>
+<attributeRef>2DD10F5F-8755-90E2-5F7E-442CA1617BBA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

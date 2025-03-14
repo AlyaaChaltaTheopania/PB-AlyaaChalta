@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F832E974-59CE-73DC-BB66-F6686CB25FB9" name="PENELITI">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>FECD0553-9873-00D9-B639-87601B983AE2</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIP" id="CA6619BF-E7E6-BCEC-DE47-F6AFAFAA080E">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>EE8F9FD6-F08C-587F-25A6-93008407075A</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="42FA73B4-3D2F-B7CF-4773-0B3A132B3679">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>CCD864D1-46FA-3F9E-EBB8-9396E84364E5</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>23</dataTypeSize>
+<ownDataTypeParameters>23,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="980931E2-02C8-71D2-B838-17D3C195BFA1" name="PENELITI_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>560ECA9A-EB35-2D70-241F-7DA0CAE56651</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA6619BF-E7E6-BCEC-DE47-F6AFAFAA080E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

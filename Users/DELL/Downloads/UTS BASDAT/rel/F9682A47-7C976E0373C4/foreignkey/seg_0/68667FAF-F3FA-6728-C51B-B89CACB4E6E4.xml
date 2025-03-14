@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68667FAF-F3FA-6728-C51B-B89CACB4E6E4" containerWithKeyObject="39D7710E-74F4-1FE9-AA09-012F172B9235" localFKIndex="F27D11EF-93F5-BAD5-F4E5-87FDDDD5FEAE" name="LEMBAGA_UNIVERSITAS_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-30 04:59:34 UTC</createdTime>
+<generatorID>CE73B00F-2FB7-3CF1-423E-4CA00FB5199E</generatorID>
+<ownerDesignName>UTS BASDAT</ownerDesignName>
+<referredTableLongName>UNIVERSITAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8402740E-D685-B6A7-279B-4F854F2A7180</referredTableID>
+<keyObject>5413661D-C633-46E6-BB4B-D641AECF3E5C</keyObject>
+<referredKeyID>5413661D-C633-46E6-BB4B-D641AECF3E5C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDUniv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

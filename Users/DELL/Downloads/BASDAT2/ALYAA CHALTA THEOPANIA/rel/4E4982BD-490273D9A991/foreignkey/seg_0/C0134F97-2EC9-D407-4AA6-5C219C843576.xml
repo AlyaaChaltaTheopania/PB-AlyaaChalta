@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0134F97-2EC9-D407-4AA6-5C219C843576" containerWithKeyObject="C54C9B5D-9316-A175-B4BC-B46F8F6AF217" localFKIndex="77C7270E-87AE-2108-820A-B5375CF48514" name="BRG_PO_PO_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-10-24 07:37:45 UTC</createdTime>
+<generatorID>0B1BC24B-A8DB-23ED-4987-20C411F3967C</generatorID>
+<ownerDesignName>ALYAA CHALTA THEOPANIA</ownerDesignName>
+<referredTableLongName>PO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7172F7C-C300-A574-57EA-734FB8F01BA2</referredTableID>
+<keyObject>BCF1E56C-E4A8-B43D-81C5-81BB047A699B</keyObject>
+<referredKeyID>BCF1E56C-E4A8-B43D-81C5-81BB047A699B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>No_Po</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
